@@ -121,3 +121,35 @@ header .navigation li a:hover {
   background: #d7d9d9;
   color: #aa8873;
 }
+
+/* Section: Icon */
+.icon {
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon li {
+  list-style: none;
+}
+
+.icon li a {
+  display: inline-flex;
+  margin-left: 15px;
+  background: #c7aaa2;
+  color: #321c25;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+  border-radius: 5px;
+  align-items: center;
+  transition: 0.5s ease-in-out;
+}
+
+.icon li a:hover {
+  background: #213838;
+  color: #d7d9d9;
+}
